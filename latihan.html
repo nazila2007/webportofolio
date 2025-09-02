@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Siti Nazilatul Amanah</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: blue;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: 20px;
+      border: 4px solid white;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: pink;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: black;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background-color: goldenrod;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: goldenrod;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+    .download-btn:hover {
+      background-color: darkorange;
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #96badf;
+      color: black;
+    }
+    a {
+      color: blue;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Siti Nazilatul Amanah</h1>
+    <img src="fotozila1.jpeg" alt="Foto Siti Nazilatul Amanah" />
+  </header>
+
+  <nav>
+    <a href="#home">Beranda</a>
+    <a href="#about">Tentang</a>
+    <a href="#experience">Pengalaman</a>
+    <a href="#gallery">Galeri</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+
+  <section id="home">
+    <h2>Beranda</h2>
+    <p>Selamat datang di website portofolio saya! Di sini, saya membagikan informasi tentang diri saya, pengalaman PKL, dan dokumentasi kegiatan saya.</p>
+  </section>
+
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah Siti Nazilatul Amanah. Seorang pelajar yang tertarik dengan dunia administrasi dan pengelolaan data. Saya senang mempelajari hal-hal baru, terutama yang berkaitan dengan pekerjaan kantor dan pengolahan data.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Pengalaman</h2>
+    <p>Selama menjalani Praktik Kerja Lapangan (PKL), saya memperoleh pengalaman berharga, seperti:</p>
+    <ul>
+      <li>Menginput data barang secara rapi dan akurat</li>
+      <li>Mencatat dan mengelola pengeluaran perusahaan</li>
+      <li>Belajar menggunakan software administrasi</li>
+      <li>Menyesuaikan diri dengan lingkungan kerja profesional</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Galeri</h2>
+    <div class="gallery">
+      <img src="WhatsApp Image 2025-08-27 at 10.42.27.jpeg" alt="Kegiatan PKL 1" />
+      <img src="WhatsApp Image 2025-08-27 at 10.42.28.jpeg" alt="Kegiatan PKL 2" />
+      <img src="WhatsApp Image 2025-08-27 at 10.44.11.jpeg" alt="Kegiatan PKL 3" />
+    </div>
+  </section>
+
+  <!-- FITUR DOWNLOAD CV -->
+  <section id="cv">
+    <h2>Download CV</h2>
+    <p>Anda bisa mengunduh CV saya dalam bentuk gambar dengan klik tombol di bawah ini:</p>
+    <a href="cv nazila.jpeg" download class="download-btn">📥 Download CV</a>
+    <br><br>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak</h2>
+    <p><strong>No. HP:</strong> 085932973591</p>
+    <p><strong> Email:</strong> sitinazilatulamanah1@gmail.com</p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/drlyzil" target="_blank">@drlyzil</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Siti Nazilatul Amanah. Semua Hak Dilindungi.
+  </footer>
+
+</body>
+</html>

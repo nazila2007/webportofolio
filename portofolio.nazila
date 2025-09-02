@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio Siti Nazilatul Amanah</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 20px auto;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .info, .experience {
+      margin-top: 30px;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .contact a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="foto.jpg" alt="Foto Siti Nazilatul Amanah" class="profile-pic">
+
+    <h1>Siti Nazilatul Amanah</h1>
+
+    <div class="contact">
+      <p>No. HP: <a href="tel:085932973591">085932973591</a></p>
+      <p>Instagram: <a href="https://instagram.com/drlyzil" target="_blank">@drlyzil</a></p>
+    </div>
+
+    <div class="info">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah seseorang yang tertarik dalam dunia administrasi dan keuangan. Memiliki pengalaman PKL yang memberikan saya wawasan tentang pengelolaan barang dan pengeluaran keuangan perusahaan.</p>
+    </div>
+
+    <div class="experience">
+      <h2>Pengalaman PKL</h2>
+      <ul>
+        <li>Mengetahui dan memahami proses input barang ke dalam sistem.</li>
+        <li>Terlibat dalam pencatatan dan pelaporan keuangan pengeluaran.</li>
+        <li>Mempelajari alur distribusi dan manajemen stok barang.</li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
